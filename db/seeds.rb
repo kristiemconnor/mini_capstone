@@ -10,7 +10,7 @@ product = Product.new(
   name: "Starburst", 
   price: 1,
   image_url: "https://actualize-onl-2019-07.slack.com/archives/DLKKCSJTW/p1567011178000200",
-  description: "juicy",
+  description: "juicy"
   )
 product.save
 
@@ -18,14 +18,36 @@ product = Product.new(
   name: "Kit Kats", 
   price: 2,
   image_url: "https://www.shelflife.ie/wp-content/uploads/2018/04/KitKat-350x350.jpg",
-  description: "crunchy",
+  description: "crunchy"
   )
 product.save
 
-product = Product.new(
+product = Product.new( 
   name: "Mints", 
   price: 3,
   image_url: "https://actualize-onl-2019-07.slack.com/archives/DLKKCSJTW/p1567011266000800",
-  description: "fresh",
+  description: "fresh"
   )
 product.save
+
+supplier = Supplier.new(
+  name: "Hersheys", 
+  email: "hersheys@email.com",
+  phone_number: "2222222"
+  )
+supplier.save
+
+supplier = Supplier.new(
+  name: "Willy Wonka",
+  email: "wwonka@email.com",
+  phone_number: "6662112"
+  )
+supplier.save
+
+supplier = Supplier.new(
+  name: "Bertie Bott",
+  email: "bbott@mail.com",
+  phone_number: "2122112"
+  )
+
+supplier.save
