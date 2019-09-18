@@ -1,4 +1,3 @@
 {
-  product: @product, 
-  current_user: current_user.id
+  product: @product
 }
